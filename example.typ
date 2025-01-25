@@ -1,11 +1,6 @@
 #import "conf.typ": conf, guia, pronombre
 #let mostrar_guias = true
-#show: conf.with(
-  titulo: "El Título de mi práctica",
-  autor: (nombre: "María Echón", pronombre: pronombre.elle),
-  supervisor: (nombre: "María Gómez", pronombre: pronombre.ella),
-  espaciado_titulo: 2fr,
-)
+#show: conf
 
 #guia(visible: mostrar_guias)[Se debe quitar todas las guías (estas cajas grises) antes de entregar el documento.
 

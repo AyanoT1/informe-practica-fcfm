@@ -19,18 +19,18 @@
   )]] else []
     
 #let conf(
-  titulo: none, // Título de la práctica
-  autor: none, // diccionario con nombre y pronombre, (nombre: "", pronombre: pronombre.<el/ella/elle>) 
+  titulo: "Desarrollo Fullstack en Evol Services", // Título de la práctica
+  autor: (nombre: "Sergio Romero V.", pronombre: pronombre.el), // diccionario con nombre y pronombre, (nombre: "", pronombre: pronombre.<el/ella/elle>) 
   practica: 1, // puede ser práctica 1 o 2
   codigo: "CC4901", // CC4901 para práctica I, CC5901 para práctica II
   ingenieria: "Ingeniería civil en Computación", // Nombre de la carrera
-  correo: "example@example.com", // Correo de autor
-  telefono: "+56 9 8765 4321", // Número de teléfono de autor
-  periodo: "Enero - Febrero 2024", // Periodo en que se realizó la práctica
-  empresa: "Empre S.A.", // Nombre de la empresa
-  supervisor: none, // (nombre: "nombre apellido", pronombre: pronombre.<el/ella/elle>)
-  correo-supervisor: "example@example.com", // Correo de supervisor
-  telefono-supervisor: "+56 9 8765 4321", // Número de teléfono de supervisor
+  correo: "sergioromeroiv@gmail.com", // Correo de autor
+  telefono: "+56 9 5681 4697", // Número de teléfono de autor
+  periodo: "Enero - Febrero 2025", // Periodo en que se realizó la práctica
+  empresa: " Evol Services Spa", // Nombre de la empresa
+  supervisor: (nombre: "Edison Delgado", pronombre: pronombre.el), // (nombre: "nombre apellido", pronombre: pronombre.<el/ella/elle>)
+  correo-supervisor: "edison.delgado@evol.energy", // Correo de supervisor
+  telefono-supervisor: "+56 9 6593 8746", // Número de teléfono de supervisor
   fecha: none, // si no se especifica, se usa la fecha de hoy
   espaciado_titulo: 1fr, // espacio extra que rodea al título y al nombre en la portada, 1fr es lo mismo que el resto de espacios, 2fr es el doble, etc.
   doc,
